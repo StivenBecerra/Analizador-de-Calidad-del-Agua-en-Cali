@@ -1,117 +1,190 @@
-import csv
+import unicodedata
+#LIMPIAR TEXTO
+def limpiar_texto(texto):
+    texto = texto.lower().strip()
+    texto = unicodedata.normalize('NFD', texto)
+    texto = ''.join(c for c in texto if unicodedata.category(c) != 'Mn')
+    return texto
 
-def parsear_linea(linea):
-    return next(csv.reader([linea], delimiter=','))
-
-
-def reparar_si_esta_mal(fila):
-    if len(fila) == 1:
-        return next(csv.reader([fila[0]], delimiter=','))
-    return fila
-
-
+#CARGAR DATOS
 def cargar_datos(ruta):
     datos = []
+    try:
+        with open(ruta, "r", encoding="latin-1") as archivo:
+            encabezados = archivo.readline().strip().split(";")
 
-    with open(ruta, encoding="utf-8") as f:
+            for linea in archivo:
+                valores = linea.strip().split(";")
 
-        for linea in f:
+                if len(valores) == len(encabezados):
+                    registro = dict(zip(encabezados, valores))
+                    datos.append(registro)
 
-            linea = linea.strip()
+        print(f"\nDatos cargados correctamente: {len(datos)} registros\n")
+        return datos
 
-            if not linea:
-                continue
+    except FileNotFoundError:
+        print("Error: archivo no encontrado")
+        return []
 
-            try:
-                fila = parsear_linea(linea)
-            except:
-                continue
+#MOSTRAR REGISTRO
+def mostrar_registro(registro):
+    for clave, valor in registro.items():
+        print(f"{clave}: {valor}")
+    print("=" * 30)
 
-            fila = reparar_si_esta_mal(fila)
+#VALIDAR COLUMNA
+def columna_valida(datos, columna):
+    if columna in datos[0]:
+        return True
+    else:
+        print("Error: columna no válida")
+        return False
 
-            # limpiar comillas
-            fila = [c.strip().replace('"', '') for c in fila]
+#MOSTRAR COLUMNAS
+def mostrar_columnas(datos):
+    print("\nColumnas disponibles:")
+    for col in datos[0].keys():
+        print(f"- {col}")
 
-            # conservar vacíos
-            fila = [c if c != '' else '' for c in fila]
-
-            datos.append(fila)
-
-    return datos
-#=====================================================================
-
-# FUNCION: BUSCAR
-def buscar(datos, termino):
+#BUSCAR
+def buscar(datos):
+    termino = limpiar_texto(input("\nIngrese término de búsqueda: "))
     resultados = []
-    for fila in datos:
-        if termino.lower() in ",".join(fila).lower():
-            resultados.append(fila)
 
-    print(f"\nSe encontraron {len(resultados)} registros:\n")
-    for r in resultados:
-        print(r)
-# =====================================================================
+    for registro in datos:
+        texto = " ".join(str(v) for v in registro.values())
+        texto = limpiar_texto(texto)
 
-# FUNCION: PEDIR PARAMETRO
+        if termino in texto:
+            resultados.append(registro)
 
+    print(f"\nSe encontraron {len(resultados)} registros\n")
 
-def pedir_parametro():
-   
-    while True:
-        parametro = input("Ingrese el parámetro [pH/DQO/CE/SST]: ")
-        parametro = parametro.strip().upper()   
-        if parametro in ["PH", "DQO", "CE", "SST"]:
-            if parametro == "PH":
-             indice_columna = 5
-            elif parametro == "DQO":
-             indice_columna = 6
-            elif parametro == "CE":
-             indice_columna = 7
-            elif parametro== "SST":
-             indice_columna = 8
-            return indice_columna  
-        else:
-            print("Parámetro inválido, intenta de nuevo")
+    if resultados:
+        for r in resultados:
+            mostrar_registro(r)
+    else:
+        print("No se encontraron coincidencias")
 
-            
-# FUNCION: ESTADISTICAS
-# =====================================================================
+#ESTADÍSTICAS
+def estadisticas(datos):
+    columna = input("\nIngrese nombre de la columna: ")
 
-def estadisticas(datos, indice_columna):
+    if not columna_valida(datos, columna):
+        return
+
     valores = []
-    filas = []
 
-    for i in range(1, len(datos)):  
-        valor = datos[i][indice_columna]
+    for registro in datos:
+        try:
+            valores.append(float(registro[columna]))
+        except:
+            continue
 
-       
-        if valor != "" :
-            try:
-                valor = float(valor)
-                valores.append(valor)
-                filas.append(i)
-            except:
-                pass
+    if valores:
+        print("\n--- Estadísticas ---")
+        print(f"Cantidad de datos: {len(valores)}")
+        print(f"Máximo: {max(valores)}")
+        print(f"Mínimo: {min(valores)}")
+        print(f"Promedio: {sum(valores)/len(valores):.2f}")
+    else:
+        print("No hay datos numéricos en esa columna")
 
-    maximo = max(valores)
-    minimo = min(valores)
+#FILTRAR
+def filtrar(datos):
+    columna = input("\nIngrese columna: ")
 
-    fila_max = filas[valores.index(maximo)]
-    fila_min = filas[valores.index(minimo)]
+    if not columna_valida(datos, columna):
+        return
 
-    promedio = sum(valores) / len(valores)
+    try:
+        valor = float(input("Ingrese valor mínimo: "))
+    except:
+        print("Error: debe ingresar un número válido")
+        return
 
-    if indice_columna == 5:
-        print("\nEstadísticas para pH:")
-    elif indice_columna == 6:
-        print("\nEstadísticas para DQO:")
-    elif indice_columna == 7:
-        print("\nEstadísticas para CE:")
-    elif indice_columna == 8:
-        print("\nEstadísticas para SST:")
+    resultados = []
 
-    print(f"\nMáximo: {maximo}")# (fila {fila_max})")
-    print(f"Mínimo: {minimo}")# (fila {fila_min})")
-    print(f"Promedio: {promedio}")
+    for registro in datos:
+        try:
+            if float(registro[columna]) > valor:
+                resultados.append(registro)
+        except:
+            continue
 
-    
+    print(f"\nSe encontraron {len(resultados)} registros\n")
+
+    if resultados:
+        for r in resultados:
+            mostrar_registro(r)
+    else:
+        print("No hay resultados")
+
+#AGRUPAR
+def agrupar(datos):
+    columna = input("\nIngrese la columna para agrupar: ")
+
+    if not columna_valida(datos, columna):
+        return
+
+    conteo = {}
+
+    for registro in datos:
+        valor = registro[columna]
+
+        if valor in conteo:
+            conteo[valor] += 1
+        else:
+            conteo[valor] = 1
+
+    print("\n--- Conteo por categoría ---\n")
+
+    ordenado = sorted(conteo.items(), key=lambda x: x[1], reverse=True)
+
+    for valor, cantidad in ordenado:
+        print(f"{valor}: {cantidad}")
+
+#MENÚ PRINCIPAL
+def menu():
+    datos = cargar_datos("Agua_cali_2012_2018_Pequeño.csv")
+
+    if not datos:
+        return
+
+    while True:
+        print("\n========== DATALAB ==========")
+        print("1. Buscar registros")
+        print("2. Ver estadísticas")
+        print("3. Filtrar registros")
+        print("4. Agrupar por categoría")
+        print("5. Ver columnas disponibles")
+        print("6. Salir")
+        print("=============================")
+
+        opcion = input("Seleccione una opción: ")
+
+        if opcion == "1":
+            buscar(datos)
+
+        elif opcion == "2":
+            mostrar_columnas(datos)
+            estadisticas(datos)
+
+        elif opcion == "3":
+            mostrar_columnas(datos)
+            filtrar(datos)
+
+        elif opcion == "4":
+            mostrar_columnas(datos)
+            agrupar(datos)
+
+        elif opcion == "5":
+            mostrar_columnas(datos)
+
+        elif opcion == "6":
+            print("\nSaliendo del programa...\n")
+            break
+
+        else:
+            print("Opción inválida")

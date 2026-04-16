@@ -1,203 +1,203 @@
-﻿Anio,Punto_de_muestreo,Punto,Rio,OD_porcentaje,pH,DQO,CE,SST
-2012,Entrada al perimetro urbano (Puente Azul),Entrada,Aguacatal,117.71,764.0,2230.0,20500.0,800.0
-"2012,""Salida(El Ancla, antes de desembocar el Rio Cali)"",Salida,Aguacatal,124.15,738.0,2880.0,41200.0,2700.0"
-2012,Entrada al perimetro urbano (Bocatoma Acueducto San Antonio),Entrada,Cali,63.44,720.0,9300.0,9900.0,280.0
-2012,Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca),Salida,Cali,55.38,673.0,42500.0,40600.0,19300.0
-2012,Entrada al perimetro urbano (Colegio Ideas),Entrada,CaÃ±averalejo,86.59,732.0,2590.0,18600.0,500.0
-"2012,""Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17)"",Salida,CaÃ±averalejo,17.42,631.0,8880.0,42600.0,5050.0"
-2012,Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera),Entrada,Lili,60.99,570.0,21270.0,33900.0,1200.0
-2012,Salida del perimetro urbano(Puente via Panamericana Cali-Popayan),Salida,Lili,66.69,649.0,11640.0,22500.0,2440.0
-"2012,""Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar)"",Entrada,Melendez,69.32,710.0,19000.0,7180.0,640.0"
-2012,Salida del perimetro urbano (Aguas del Sur - PTAR Caney),Salida,Melendez,53.82,712.0,28500.0,11450.0,680.0
-2012,Entrada al perimetro urbano(Puente Sede DeporCali),Entrada,Pance,97.8,696.0,12110.0,3690.0,240.0
-"2012,""Salida ( Puente La Viga, Via CaÃ±as Gordas)"",Salida,Pance,98.02,608.0,13010.0,3800.0,1040.0"
-2013,Entrada al perimetro urbano (Puente Azul),Entrada,Aguacatal,,820.0,3000.0,26000.0,1414.0
-2013,Intermedio (Despues de la Quebrada el Chocho  En el Sifon),Intermedio,Aguacatal,,793.0,7872.0,40200.0,2066.0
-"2013,""Salida(El Ancla, antes de desembocar el Rio Cali)"",Salida,Aguacatal,,789.0,6848.0,40100.0,1540.0"
-2013,Entrada al perimetro urbano (Bocatoma Acueducto San Antonio),Entrada,Cali,,729.0,703.0,13100.0,743.0
-"2013,""Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia)"",Intermedio,Cali,,762.0,2510.0,22200.0,1622.0"
-2013,Intermedio (Frente a la Clinica Los Remedios),Intermedio,Cali,,772.0,1807.0,22900.0,1755.0
-"2013,""Intermedio (Frente al barrio La Isla, Puente Cancha Vivero)"",Intermedio,Cali,,790.0,2410.0,25000.0,2050.0"
-2013,Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A),Intermedio,Cali,,763.0,2108.0,30700.0,1346.0
-2013,Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca),Salida,Cali,,750.0,5152.0,30500.0,493.0
-2013,Entrada al perimetro urbano (Colegio Ideas),Entrada,CaÃ±averalejo,,731.0,2500.0,22700.0,680.0
-2013,Intermedio  (Plaza de Toros),Intermedio,CaÃ±averalejo,,772.0,6592.0,26200.0,2860.0
-"2013,""Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17)"",Salida,CaÃ±averalejo,,682.0,16768.0,46600.0,11580.0"
-2013,Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera),Entrada,Lili,,376.0,703.0,43300.0,3291.0
-2013,Intermedio (Cl 16-Cra-102. 100m despues de la descarga PSMV-LV31),Intermedio,Lili,,581.0,602.0,34700.0,2600.0
-2013,Salida del perimetro urbano(Puente via Panamericana Cali-Popayan),Salida,Lili,,665.0,1104.0,24700.0,887.0
-"2013,""Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar)"",Entrada,Melendez,,705.0,400.0,9520.0,612.0"
-"2013,""Intermedio (Pasoancho, Cra 80 Con Cll13)"",Intermedio,Melendez,,689.0,1100.0,10440.0,2313.0"
-"2013,""Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar)"",Intermedio,Melendez,,693.0,2100.0,14830.0,883.0"
-2013,Salida del perimetro urbano (Aguas del Sur - PTAR Caney),Salida,Melendez,,711.0,2700.0,15830.0,893.0
-2013,Entrada al perimetro urbano(Puente Sede DeporCali),Entrada,Pance,,760.0,800.0,4190.0,926.0
-"2013,""Salida ( Puente La Viga, Via CaÃ±as Gordas)"",Salida,Pance,,770.0,1700.0,4860.0,423.0"
-2014,Entrada al perimetro urbano (Puente Azul),Entrada,Aguacatal,,725.0,2153.0,26100.0,400.0
-2014,Intermedio (Despues de la Quebrada el Chocho  En el Sifon),Intermedio,Aguacatal,,750.0,2549.0,56900.0,1233.0
-"2014,""Salida(El Ancla, antes de desembocar el Rio Cali)"",Salida,Aguacatal,,760.0,2328.0,55700.0,1000.0"
-2014,Entrada al perimetro urbano (Bocatoma Acueducto San Antonio),Entrada,Cali,,745.0,1486.0,9850.0,617.0
-"2014,""Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia)"",Intermedio,Cali,,705.0,2426.0,34200.0,875.0"
-2014,Intermedio (Frente a la Clinica Los Remedios),Intermedio,Cali,,799.0,2043.0,29600.0,2041.0
-"2014,""Intermedio (Frente al barrio La Isla, Puente Cancha Vivero)"",Intermedio,Cali,,864.0,3273.0,16730.0,3000.0"
-2014,Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A),Intermedio,Cali,,851.0,3955.0,28900.0,950.0
-2014,Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca),Salida,Cali,,721.0,8790.0,37400.0,2229.0
-2014,Entrada al perimetro urbano (Colegio Ideas),Entrada,CaÃ±averalejo,,729.0,2315.0,20500.0,617.0
-2014,Intermedio  (Plaza de Toros),Intermedio,CaÃ±averalejo,,714.0,2633.0,23600.0,1233.0
-"2014,""Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17)"",Salida,CaÃ±averalejo,,642.0,24309.0,55900.0,13833.0"
-2014,Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera),Entrada,Lili,,395.0,1988.0,35700.0,1221.0
-2014,Intermedio (Cl 16-Cra-102. 100m despues de la descarga PSMV-LV31),Intermedio,Lili,,612.0,2066.0,28400.0,617.0
-2014,Salida del perimetro urbano(Puente via Panamericana Cali-Popayan),Salida,Lili,,687.0,3947.0,21400.0,617.0
-"2014,""Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar)"",Entrada,Melendez,,824.0,1759.0,13650.0,617.0"
-"2014,""Intermedio (Pasoancho, Cra 80 Con Cll13)"",Intermedio,Melendez,,9990.0,1482.0,12570.0,617.0"
-"2014,""Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar)"",Intermedio,Melendez,,692.0,22282.0,33400.0,10600.0"
-2014,Salida del perimetro urbano (Aguas del Sur - PTAR Caney),Salida,Melendez,,706.0,12421.0,36000.0,4500.0
-2014,Entrada al perimetro urbano(Puente Sede DeporCali),Entrada,Pance,,726.0,1616.0,4090.0,617.0
-"2014,""Intermedio (Mina Material de arrastre, Entrada via destapada)"",Intermedio,Pance,,746.0,2306.0,4330.0,617.0"
-"2014,""Salida ( Puente La Viga, Via CaÃ±as Gordas)"",Salida,Pance,,754.0,1476.0,4420.0,617.0"
-2015,Entrada al perimetro urbano (Puente Azul),Entrada,Aguacatal,74.59,743.0,1900.0,27500.0,520.0
-2015,Intermedio (Despues de la Quebrada el Chocho  En el Sifon),Intermedio,Aguacatal,75.85,764.0,2460.0,53000.0,725.0
-"2015,""Salida(El Ancla, antes de desembocar el Rio Cali)"",Salida,Aguacatal,70.94,770.0,2150.0,52600.0,560.0"
-2015,Entrada al perimetro urbano (Bocatoma Acueducto San Antonio),Entrada,Cali,100.77,715.0,800.0,16490.0,175.0
-"2015,""Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia)"",Intermedio,Cali,99.54,743.0,2432.0,47200.0,1600.0"
-2015,Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A),Intermedio,Cali,78.03,852.0,2300.0,43500.0,2800.0
-2015,Intermedio (Frente a la Clinica Los Remedios),Intermedio,Cali,88.07,846.0,1600.0,47200.0,1600.0
-"2015,""Intermedio (Frente al barrio La Isla, Puente Cancha Vivero)"",Intermedio,Cali,78.32,854.0,1800.0,42000.0,2400.0"
-2015,Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca),Salida,Cali,62.14,658.0,20700.0,65000.0,4800.0
-2015,Entrada al perimetro urbano (Colegio Ideas),Entrada,CaÃ±averalejo,65.45,706.0,1217.0,23900.0,680.0
-2015,Intermedio  (Plaza de Toros),Intermedio,CaÃ±averalejo,63.89,725.0,820.0,24700.0,160.0
-"2015,""Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17)"",Salida,CaÃ±averalejo,39.94,635.0,7303.0,40400.0,29800.0"
-2015,Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera),Entrada,Lili,91.5,392.0,800.0,43600.0,240.0
-2015,Intermedio (Cl 16-Cra-102. 100m despues de la descarga PSMV-LV31),Intermedio,Lili,60.49,554.0,980.0,37700.0,300.0
-2015,Salida del perimetro urbano(Puente via Panamericana Cali-Popayan),Salida,Lili,85.51,610.0,1040.0,35500.0,340.0
-"2015,""Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar)"",Entrada,Melendez,92.97,770.0,1689.0,16680.0,1160.0"
-"2015,""Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar)"",Intermedio,Melendez,56.72,762.0,974.0,17120.0,3000.0"
-"2015,""Intermedio (Pasoancho, Cra 80 Con Cll13)"",Intermedio,Melendez,64.89,778.0,848.0,15820.0,2760.0"
-2015,Salida del perimetro urbano (Aguas del Sur - PTAR Caney),Salida,Melendez,0.0,723.0,11500.0,53300.0,3700.0
-2015,Entrada al perimetro urbano(Puente Sede DeporCali),Entrada,Pance,98.27,679.0,800.0,5340.0,160.0
-"2015,""Intermedio (Mina Material de arrastre, Entrada via destapada)"",Intermedio,Pance,94.63,760.0,800.0,6620.0,240.0"
-"2015,""Salida ( Puente La Viga, Via CaÃ±as Gordas)"",Salida,Pance,93.5,825.0,810.0,6720.0,200.0"
-2016,Entrada al perimetro urbano (Puente Azul),Entrada,Aguacatal,77.35,788.0,181.0,300.0,1525.0
-2016,Intermedio (Despues de la Quebrada el Chocho  En el Sifon),Intermedio,Aguacatal,70.52,777.0,193.0,414.0,255.0
-"2016,""Salida (El Ancla, antes de desembocar el Rio Cali)"",Salida,Aguacatal,60.11,787.0,69.0,803.0,686.0"
-2016,Entrada al perimetro urbano (Bocatoma Acueducto San Antonio),Entrada,Cali,101.61,803.0,12.0,1188.0,7.0
-"2016,""Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia)"",Intermedio,Cali,79.52,762.0,1431.0,286.0,13.0"
-2016,Intermedio (Frente a la Clinica Los Remedios),Intermedio,Cali,86.69,791.0,12.0,260.0,12.0
-"2016,""Intermedio (Frente al barrio La Isla, Puente Cancha Vivero)"",Intermedio,Cali,96.79,677.0,194.0,261.0,325.0"
-2016,Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A),Intermedio,Cali,89.79,737.0,1801.0,276.0,355.0
-2016,Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca),Salida,Cali,31.7,745.0,17711.0,438.0,45.0
-2016,Entrada al perimetro urbano (Colegio Ideas),Entrada,CaÃ±averalejo,70.01,763.0,12.0,2024.0,7.0
-2016,Intermedio  (Plaza de Toros),Intermedio,CaÃ±averalejo,65.56,767.0,12.0,2118.0,7.0
-2016,Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera),Entrada,Lili,46.29,4.0,12.0,448.0,7.0
-2016,Intermedio (Cl 16-Cra-102. 100m despues de la descarga PSMV-LV31),Intermedio,Lili,68.26,661.0,12.0,226.0,7.0
-2016,Salida del perimetro urbano(Puente via Panamericana Cali-Popayan),Salida,Lili,71.89,665.0,13.0,1991.0,7.0
-"2016,""Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar)"",Entrada,Melendez,84.8,772.0,12.0,1204.0,7.0"
-"2016,""Intermedio (Pasoancho, Cra 80 Con Cll13)"",Intermedio,Melendez,76.41,762.0,12.0,125.0,7.0"
-"2016,""Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar)"",Intermedio,Melendez,69.26,73.0,12.0,1214.0,7.0"
-2016,Salida del perimetro urbano (Aguas del Sur - PTAR Caney),Salida,Melendez,54.81,729.0,355.0,241.0,7.0
-2016,Entrada al perimetro urbano(Puente Sede DeporCali),Entrada,Pance,106.57,712.0,12.0,445.0,7.0
-"2016,""Intermedio (Mina Material de arrastre, Entrada via destapada)"",Intermedio,Pance,112.97,841.0,12.0,473.0,7.0"
-"2016,""Salida ( Puente La Viga, Via CaÃ±as Gordas)"",Salida,Pance,103.23,84.0,12.0,474.0,73.0"
-2016,Entrada al perimetro urbano (Puente Azul),Entrada,Aguacatal,97.19,855.0,1631.0,26600.0,2100.0
-2016,Intermedio (Despues de la Quebrada el Chocho  En el Sifon),Intermedio,Aguacatal,74.66,779.0,1988.0,63400.0,2346.0
-"2016,""Salida (El Ancla, antes de desembocar el Rio Cali)"",Salida,Aguacatal,85.63,812.0,1632.0,35200.0,2080.0"
-2016,Entrada al perimetro urbano (Bocatoma Acueducto San Antonio),Entrada,Cali,106.09,796.0,1200.0,14690.0,1157.0
-"2016,""Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia)"",Intermedio,Cali,98.18,758.0,1200.0,14620.0,2050.0"
-2016,Intermedio (Frente a la Clinica Los Remedios),Intermedio,Cali,104.68,792.0,1200.0,14890.0,2140.0
-"2016,""Intermedio (Frente al barrio La Isla, Puente Cancha Vivero)"",Intermedio,Cali,96.67,677.0,1653.0,15080.0,2348.0"
-2016,Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A),Intermedio,Cali,93.83,739.0,1200.0,15680.0,2650.0
-2016,Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca),Salida,Cali,60.64,747.0,7860.0,25500.0,2800.0
-2016,Entrada al perimetro urbano (Colegio Ideas),Entrada,CaÃ±averalejo,65.39,737.0,1200.0,20280.0,1157.0
-2016,Intermedio  (Plaza de Toros),Intermedio,CaÃ±averalejo,54.02,743.0,2966.0,26100.0,1300.0
-"2016,""Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17)"",Salida,CaÃ±averalejo,62.89,737.0,7647.0,37100.0,8500.0"
-2016,Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera),Entrada,Lili,56.26,628.0,1370.0,33800.0,5100.0
-2016,Intermedio (Cl 16-Cra-102. 100m despues de la descarga PSMV-LV31),Intermedio,Lili,77.52,654.0,1200.0,18910.0,1120.0
-2016,Salida del perimetro urbano(Puente via Panamericana Cali-Popayan),Salida,Lili,57.35,657.0,1232.0,16220.0,980.0
-"2016,""Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar)"",Entrada,Melendez,94.63,764.0,1200.0,7490.0,2200.0"
-"2016,""Intermedio (Pasoancho, Cra 80 Con Cll13)"",Intermedio,Melendez,78.73,749.0,1200.0,7650.0,2650.0"
-"2016,""Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar)"",Intermedio,Melendez,78.67,728.0,1200.0,11040.0,1875.0"
-2016,Salida del perimetro urbano (Aguas del Sur - PTAR Caney),Salida,Melendez,80.6,752.0,1627.0,12150.0,2000.0
-2016,Entrada al perimetro urbano(Puente Sede DeporCali),Entrada,Pance,96.13,738.0,1200.0,3230.0,700.0
-"2016,""Intermedio (Mina Material de arrastre, Entrada via destapada)"",Intermedio,Pance,101.64,715.0,1200.0,3540.0,712.0"
-"2016,""Salida ( Puente La Viga, Via CaÃ±as Gordas)"",Salida,Pance,93.37,690.0,1200.0,3520.0,1100.0"
-2017,Entrada al perimetro urbano (Puente Azul),Entrada,Aguacatal,54.74,816.0,120.0,247.0,700.0
-2017,Intermedio (Despues de la Quebrada el Chocho  En el Sifon),Intermedio,Aguacatal,51.68,815.0,120.0,400.0,700.0
-"2017,""Salida (El Ancla, antes de desembocar el Rio Cali)"",Salida,Aguacatal,47.45,612.0,120.0,380.0,743.0"
-2017,Entrada al perimetro urbano (Bocatoma Acueducto San Antonio),Entrada,Cali,59.35,756.0,120.0,104.0,700.0
-"2017,""Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia)"",Intermedio,Cali,59.39,717.0,120.0,196.0,1760.0"
-2017,Intermedio (Frente a la Clinica Los Remedios),Intermedio,Cali,54.16,738.0,120.0,193.0,2450.0
-"2017,""Intermedio (Frente al barrio La Isla, Puente Cancha Vivero)"",Intermedio,Cali,49.3,756.0,120.0,189.0,2500.0"
-2017,Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A),Intermedio,Cali,47.74,788.0,120.0,163.0,2650.0
-2017,Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca),Salida,Cali,44.87,748.0,278.0,216.0,4350.0
-2017,Entrada al perimetro urbano (Colegio Ideas),Entrada,CaÃ±averalejo,50.74,787.0,120.0,184.0,1300.0
-2017,Intermedio  (Plaza de Toros),Intermedio,CaÃ±averalejo,45.08,779.0,129.0,219.0,18400.0
-"2017,""Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17)"",Salida,CaÃ±averalejo,10.0,665.0,1128.0,465.0,20500.0"
-2017,Entrada (Al lado de la ecas la riverita - inicio del perimetro urbano)**,Entrada,Lili,71.86,671.0,120.0,257.0,1430.0
-2017,Salida (Despues del puente via panamericana)**,Salida,Lili,69.92,698.0,120.0,151.0,850.0
-"2017,""Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar)"",Entrada,Melendez,81.83,730.0,120.0,60.0,962.0"
-"2017,""Intermedio (Pasoancho, Cra 80 Con Cll13)"",Intermedio,Melendez,63.03,762.0,120.0,67.0,1075.0"
-"2017,""Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar)"",Intermedio,Melendez,56.84,773.0,120.0,73.0,1016.0"
-2017,Salida del perimetro urbano (Aguas del Sur - PTAR Caney),Salida,Melendez,45.73,720.0,120.0,36.0,787.0
-2017,Entrada perimetro urbano K122 Av 10 de Mayo**,Entrada,Pance,57.57,700.0,120.0,40.0,700.0
-2017,Salida perimetro urbano K 127 Av  el Banco**,Salida,Pance,45.73,720.0,120.0,36.0,787.0
-2017,Entrada al perimetro urbano (Las Palmas),Entrada,Aguacatal,78.89,777.0,1200.0,19800.0,480.0
-2017,Intermedio (Despues de la Quebrada el Chocho  En el Sifon),Intermedio,Aguacatal,72.37,736.0,1200.0,40800.0,600.0
-"2017,""Salida(El Ancla, antes de desembocar el Rio Cali)"",Salida,Aguacatal,76.38,744.0,1200.0,40000.0,720.0"
-2017,Entrada al perimetro urbano (Bocatoma Acueducto San Antonio),Entrada,Cali,65.95,748.0,1200.0,9030.0,400.0
-"2017,""Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia)"",Intermedio,Cali,58.13,720.0,1200.0,18690.0,1540.0"
-2017,Intermedio (Frente a la Clinica Los Remedios),Intermedio,Cali,55.87,721.0,1200.0,21130.0,2250.0
-"2017,""Intermedio (Frente al barrio La Isla, Puente Cancha Vivero)"",Intermedio,Cali,50.95,750.0,1200.0,21400.0,2300.0"
-2017,Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A),Intermedio,Cali,53.0,772.0,1200.0,21770.0,2420.0
-2017,Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca),Salida,Cali,44.87,748.0,3014.0,24120.0,2500.0
-2017,Entrada al perimetro urbano (Colegio Ideas),Entrada,CaÃ±averalejo,51.58,771.0,3537.0,19920.0,14900.0
-2017,Intermedio  (Plaza de Toros),Intermedio,CaÃ±averalejo,48.95,782.0,2741.0,21820.0,10500.0
-"2017,""Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17)"",Salida,CaÃ±averalejo,10.77,673.0,9320.0,39700.0,18500.0"
-2017,Entrada (Finca El Forraje - VÃ­a la Buitrera - Inicio del perimetro urbano)**,Entrada,Lili,74.75,683.0,1200.0,35200.0,1040.0
-2017,Salida (Despues del puente via panamericana)**,Salida,Lili,70.68,702.0,1200.0,19070.0,18500.0
-"2017,""Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar)"",Entrada,Melendez,83.9,772.0,1200.0,6500.0,820.0"
-"2017,""Intermedio (Pasoancho, Cra 80 Con Cll13)"",Intermedio,Melendez,87.43,772.0,1200.0,6630.0,960.0"
-"2017,""Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar)"",Intermedio,Melendez,67.18,782.0,1200.0,9710.0,1000.0"
-2017,Salida del perimetro urbano (Aguas del Sur - PTAR Caney),Salida,Melendez,73.75,761.0,1200.0,9500.0,980.0
-2017,Entrada perimetro urbano K122 Av 10 de Mayo**,Entrada,Pance,61.01,710.0,1200.0,3780.0,280.0
-2017,Salida perimetro urbano K 127 Av el Banco**,Salida,Pance,47.97,730.0,1200.0,3850.0,360.0
-2018,Entrada al perimetro urbano (Las Palmas),Entrada,Aguacatal,98.71,795.0,1337.0,20500.0,700.0
-2018,Intermedio (Despues de la Quebrada el Chocho  En el Sifon),Intermedio,Aguacatal,83.34,721.0,3554.0,50900.0,5700.0
-"2018,""Salida(El Ancla, antes de desembocar el Rio Cali)"",Salida,Aguacatal,64.6,747.0,3542.0,44600.0,5100.0"
-2018,Entrada Perimetro Urbano  (Frente a Jardin Botanico),Entrada,Cali,99.49,761.0,1200.0,9410.0,700.0
-"2018,""Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia)"",Intermedio,Cali,97.18,805.0,1200.0,24800.0,700.0"
-2018,Intermedio (Frente a la Clinica Los Remedios),Intermedio,Cali,99.79,810.0,1200.0,25800.0,700.0
-"2018,""Intermedio (Frente al barrio La Isla, Puente Cancha Vivero)"",Intermedio,Cali,101.62,790.0,1200.0,23500.0,700.0"
-2018,Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A),Intermedio,Cali,122.27,830.0,1200.0,24500.0,1420.0
-2018,Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca),Salida,Cali,48.36,761.0,1815.0,26500.0,1620.0
-2018,Entrada al perimetro urbano (Colegio Ideas),Entrada,CaÃ±averalejo,71.64,755.0,1554.0,19630.0,700.0
-2018,Intermedio  (Plaza de Toros),Intermedio,CaÃ±averalejo,44.33,743.0,3078.0,23900.0,743.0
-2018,Intermedio (Puente Verde),Intermedio,CaÃ±averalejo,0.0,686.0,15452.0,50600.0,15800.0
-2018,Salida (Cl 23 Antes descargar Canal Sur),Salida,CaÃ±averalejo,1.76,660.0,22631.0,45100.0,18800.0
-"2018,""Entrada (Entrada  Perimetro Urbano, finca el forraje, via a la Buitrera.)**"",Entrada,Lili,70.92,636.0,2179.0,33300.0,7286.0"
-2018,Salida (Despues del puente via panamericana)**,Salida,Lili,68.95,672.0,3024.0,20400.0,1325.0
-2018,Entrada al perimetro urbano (VÃ­a Polvorines puente entrada base militar),Entrada,Melendez,94.51,719.0,1200.0,8300.0,983.0
-"2018,""Intermedio (Pasoancho, Cra 80 Con Cll13)"",Intermedio,Melendez,91.71,754.0,1200.0,9100.0,700.0"
-"2018,""Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar)"",Intermedio,Melendez,60.68,723.0,1790.0,13700.0,700.0"
-2018,Salida del perimetro urbano (Aguas del Sur - PTAR Caney),Salida,Melendez,67.43,736.0,2704.0,18000.0,1340.0
-2018,Entrada perimetro urbano 230 (Puente  Via Club Deportivo Cali),Entrada,Pance,97.04,7.71,1200.0,2600.0,700.0
-2018,Salida perimetro urbano (Puente  Via Club Deportivo Cali),Salida,Pance,93.07,7.91,1200.0,2400.0,700.0
-2018,Entrada al perimetro urbano (Las Palmas),Entrada,Aguacatal,97.33,819.0,1200.0,21000.0,700.0
-2018,Intermedio (Despues de la Quebrada el Chocho  En el Sifon),Intermedio,Aguacatal,84.28,797.0,1669.0,43400.0,700.0
-"2018,""Salida(El Ancla, antes de desembocar el Rio Cali)"",Salida,Aguacatal,82.35,778.0,2402.0,47000.0,1683.0"
-2018,Entrada Perimetro Urbano  (Frente a Jardin Botanico),Entrada,Cali,96.6,777.0,1200.0,11400.0,700.0
-"2018,""Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia)"",Intermedio,Cali,94.25,767.0,1200.0,38700.0,700.0"
-2018,Intermedio (Frente a la Clinica Los Remedios),Intermedio,Cali,98.98,816.0,1200.0,35900.0,2600.0
-"2018,""Intermedio (Frente al barrio La Isla, Puente Cancha Vivero)"",Intermedio,Cali,107.96,800.0,2089.0,40800.0,1830.0"
-2018,Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A),Intermedio,Cali,106.92,848.0,1200.0,38900.0,1400.0
-2018,Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca),Salida,Cali,73.89,707.0,15608.0,38300.0,8500.0
-2018,Entrada al perimetro urbano (Colegio Ideas),Entrada,CaÃ±averalejo,60.88,743.0,1200.0,23000.0,1200.0
-2018,Intermedio  (Plaza de Toros),Intermedio,CaÃ±averalejo,54.78,784.0,1525.0,25500.0,1083.0
-2018,Intermedio (Puente Verde),Intermedio,CaÃ±averalejo,0.0,683.0,22765.0,52200.0,15700.0
-2018,Salida (Cl 23 Antes descargar Canal Sur),Salida,CaÃ±averalejo,1.74,675.0,29335.0,57000.0,18500.0
-"2018,""Entrada (Entrada  Perimetro Urbano, finca el forraje, via a la Buitrera.)**"",Entrada,Lili,39.43,624.0,1642.0,52900.0,2550.0"
-2018,Salida (Despues del puente via panamericana)**,Salida,Lili,73.81,681.0,1200.0,22800.0,700.0
-2018,Entrada al perimetro urbano (VÃ­a Polvorines puente entrada base militar),Entrada,Melendez,62.94,765.0,1200.0,12200.0,700.0
-"2018,""Intermedio (Pasoancho, Cra 80 Con Cll13)"",Intermedio,Melendez,80.32,736.0,1200.0,14400.0,700.0"
-"2018,""Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar)"",Intermedio,Melendez,46.52,726.0,1381.0,16500.0,700.0"
-2018,Salida del perimetro urbano (Aguas del Sur - PTAR Caney),Salida,Melendez,29.69,720.0,5113.0,33400.0,3812.0
-2018,Entrada perimetro urbano 230 (Puente  Via Club Deportivo Cali),Entrada,Pance,96.07,662.0,1200.0,4550.0,700.0
-2018,Salida perimetro urbano (Puente  Via Club Deportivo Cali),Salida,Pance,100.31,707.0,1200.0,4570.0,700.0
+Ano;Fecha;Punto de muestreo;Rio;OD (%);pH;DQO (mg/L);CE (microS/cm);SST (mg/L)
+2015;Septiembre 2 de 2015;Entrada al perimetro urbano(Puente Sede DeporCali);Pance;98.27;6.79;8;53.4;1.6
+2015;Septiembre 9 de 2015;Intermedio  (Plaza de Toros);Canaveralejo;63.89;7.25;8.2;247;1.6
+2015;Septiembre 11 de 2015;Entrada al perimetro urbano (Bocatoma Acueducto San Antonio);Cali;100.77;7.15;8;164.9;1.75
+2015;Septiembre 2 de 2015;Salida ( Puente La Viga, Via Canas Gordas);Pance;93.5;8.25;8.1;67.2;2
+2012;NaN;Entrada al perimetro urbano(Puente Sede DeporCali);Pance;97.8;6.96;121.1;36.9;2.4
+2015;Septiembre 2 de 2015;Intermedio (Mina Material de arrastre, Entrada via destapada);Pance;94.63;7.6;8;66.2;2.4
+2015;Septiembre 3 de 2015;Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera);Lili;91.5;3.92;8;436;2.4
+2012;NaN;Entrada al perimetro urbano (Bocatoma Acueducto San Antonio);Cali;63.44;7.2;93;99;2.8
+2017;Diciembre 21 de 2017;Entrada perimetro urbano K122 Av 10 de Mayo**;Pance;61.01;7.1;12;37.8;2.8
+2015;Septiembre 3 de 2015;Intermedio (Cl 16-Cra-102. 100m despues de la descarga PSMV-LV31);Lili;60.49;5.54;9.8;377;3
+2015;Septiembre 3 de 2015;Salida del perimetro urbano(Puente via Panamericana Cali-Popayan);Lili;85.51;6.1;10.4;355;3.4
+2017;Diciembre 21 de 2017;Salida perimetro urbano K 127 Av el Banco**;Pance;47.97;7.3;12;38.5;3.6
+2017;Diciembre 30 de 2017;Entrada al perimetro urbano (Bocatoma Acueducto San Antonio);Cali;65.95;7.48;12;90.3;4
+2014;Agosto 13 del 2014;Entrada al perimetro urbano (Puente Azul);Aguacatal;6.2;7.25;21.53;261;4
+2013;NaN;Salida ( Puente La Viga, Via Canas Gordas);Pance;6.95;7.7;17;48.6;4.23
+2017;Diciembre 29 de 2017;Entrada al perimetro urbano (Las Palmas);Aguacatal;78.89;7.77;12;198;4.8
+2013;NaN;Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca);Cali;3.4;7.5;51.52;305;4.93
+2012;NaN;Entrada al perimetro urbano (Colegio Ideas);Canaveralejo;86.59;7.32;25.9;186;5
+2015;Septiembre 4 de 2015;Entrada al perimetro urbano (Puente Azul);Aguacatal;74.59;7.43;19;275;5.2
+2015;Septiembre 4 de 2015;Salida(El Ancla, antes de desembocar el Rio Cali);Aguacatal;70.94;7.7;21.5;526;5.6
+2017;Diciembre 29 de 2017;Intermedio (Despues de la Quebrada el Chocho  En el Sifon);Aguacatal;72.37;7.36;12;408;6
+2013;NaN;Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar);MeleNaNez;7.4;7.05;4;95.2;6.12
+2014;Junio 29 del 2014;Entrada al perimetro urbano (Bocatoma Acueducto San Antonio);Cali;7.71;7.45;14.86;98.5;6.17
+2014;Junio 23 del 2014;Intermedio (Mina Material de arrastre, Entrada via destapada);Pance;7.49;7.46;23.06;43.3;6.17
+2014;Junio 23 del 2014;Salida ( Puente La Viga, Via Canas Gordas);Pance;7.37;7.54;14.76;44.2;6.17
+2014;Junio 23 del 2014;Entrada al perimetro urbano(Puente Sede DeporCali);Pance;7.2;7.26;16.16;40.9;6.17
+2014;Junio  28 del 2014;Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar);MeleNaNez;7.13;8.24;17.59;136.5;6.17
+2014;Junio  28 del 2014;Intermedio (Pasoancho, Cra 80 Con Cll13);MeleNaNez;6.94;9.99;14.82;125.7;6.17
+2014;Junio 24 del 2014;Entrada al perimetro urbano (Colegio Ideas);Canaveralejo;5.68;7.29;23.15;205;6.17
+2014;Junio 23 del 2014;Salida del perimetro urbano(Puente via Panamericana Cali-Popayan);Lili;4.99;6.87;39.47;214;6.17
+2014;Junio 23 del 2014;Intermedio (Cl 16-Cra-102. 100m despues de la descarga PSMV-LV31);Lili;4.38;6.12;20.66;284;6.17
+2012;NaN;Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar);MeleNaNez;69.32;7.1;190;71.8;6.4
+2015;Septiembre 9 de 2015;Entrada al perimetro urbano (Colegio Ideas);Canaveralejo;65.45;7.06;12.17;239;6.8
+2012;NaN;Salida del perimetro urbano (Aguas del Sur - PTAR Caney);MeleNaNez;53.82;7.12;285;114.5;6.8
+2013;NaN;Entrada al perimetro urbano (Colegio Ideas);Canaveralejo;5;7.31;25;227;6.8
+2016;Agosto 1 de 2016;Intermedio (Mina Material de arrastre, Entrada via destapada);Pance;112.97;8.41;12;47.3;7
+2016;Agosto 1 de 2016;Entrada al perimetro urbano(Puente Sede DeporCali);Pance;106.57;7.12;12;44.5;7
+2018;Marzo 16 de 2018;Intermedio (Frente al barrio La Isla, Puente Cancha Vivero);Cali;101.62;7.9;12;235;7
+2016;Agosto 4 de 2016;Entrada al perimetro urbano (Bocatoma Acueducto San Antonio);Cali;101.61;8.03;12;118.8;7
+2018;Agosto 31 de 2018;Salida perimetro urbano (Puente  Via Club Deportivo Cali);Pance;100.31;7.07;12;45.7;7
+2018;Marzo 16 de 2018;Intermedio (Frente a la Clinica Los Remedios);Cali;99.79;8.1;12;258;7
+2018;Marzo 16 de 2018;Entrada Perimetro Urbano  (Frente a Jardin Botanico);Cali;99.49;7.61;12;94.1;7
+2018;Junio 25 de 2018;Entrada al perimetro urbano (Las Palmas);Aguacatal;98.71;7.95;13.37;205;7
+2018;Septiembre 28 de 2018;Entrada al perimetro urbano (Las Palmas);Aguacatal;97.33;8.19;12;210;7
+2018;Marzo 16 de 2018;Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia);Cali;97.18;8.05;12;248;7
+2018;Marzo 15 de 2018;Entrada perimetro urbano 230 (Puente  Via Club Deportivo Cali);Pance;97.04;7.71;12;26;7
+2018;Septiembre 25 de 2018;Entrada Perimetro Urbano  (Frente a Jardin Botanico);Cali;96.6;7.77;12;114;7
+2016;Diciembre 5 de 2016;Entrada al perimetro urbano(Puente Sede DeporCali);Pance;96.13;7.38;12;32.3;7
+2018;Agosto 31 de 2018;Entrada perimetro urbano 230 (Puente  Via Club Deportivo Cali);Pance;96.07;6.62;12;45.5;7
+2018;Septiembre 25 de 2018;Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia);Cali;94.25;7.67;12;387;7
+2018;Marzo 15 de 2018;Salida perimetro urbano (Puente  Via Club Deportivo Cali);Pance;93.07;7.91;12;24;7
+2018;Marzo 22 de 2018;Intermedio (Pasoancho, Cra 80 Con Cll13);MeleNaNez;91.71;7.54;12;91;7
+2016;Agosto 3 de 2016;Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar);MeleNaNez;84.8;7.72;12;120.4;7
+2018;Septiembre 28 de 2018;Intermedio (Despues de la Quebrada el Chocho  En el Sifon);Aguacatal;84.28;7.97;16.69;434;7
+2018;Septiembre 11 de 2018;Intermedio (Pasoancho, Cra 80 Con Cll13);MeleNaNez;80.32;7.36;12;144;7
+2016;Agosto 3 de 2016;Intermedio (Pasoancho, Cra 80 Con Cll13);MeleNaNez;76.41;7.62;12;125;7
+2018;Septiembre 7 de 2018;Salida (Despues del puente via panamericana)**;Lili;73.81;6.81;12;228;7
+2016;Agosto 1 de 2016;Salida del perimetro urbano(Puente via Panamericana Cali-Popayan);Lili;71.89;6.65;13;199.1;7
+2018;Junio 21 de 2018;Entrada al perimetro urbano (Colegio Ideas);Canaveralejo;71.64;7.55;15.54;196.3;7
+2016;Agosto 2 de 2016;Entrada al perimetro urbano (Colegio Ideas);Canaveralejo;70.01;7.63;12;202.4;7
+2016;Agosto 3 de 2016;Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar);MeleNaNez;69.26;7.3;12;121.4;7
+2016;Agosto 1 de 2016;Intermedio (Cl 16-Cra-102. 100m despues de la descarga PSMV-LV31);Lili;68.26;6.61;12;226;7
+2016;Agosto 2 de 2016;Intermedio  (Plaza de Toros);Canaveralejo;65.56;7.67;12;211.8;7
+2018;Septiembre 11 de 2018;Entrada al perimetro urbano (V�a Polvorines puente entrada base militar);MeleNaNez;62.94;7.65;12;122;7
+2018;Marzo 22 de 2018;Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar);MeleNaNez;60.68;7.23;17.9;137;7
+2017;Mayo 30 de 2017;Entrada al perimetro urbano (Bocatoma Acueducto San Antonio);Cali;59.35;7.56;12;104;7
+2017;Abril 3 de 2017;Entrada perimetro urbano K122 Av 10 de Mayo**;Pance;57.57;7;12;40;7
+2016;Agosto 3 de 2016;Salida del perimetro urbano (Aguas del Sur - PTAR Caney);MeleNaNez;54.81;7.29;35.5;241;7
+2017;Abril 5 de 2017;Entrada al perimetro urbano (Puente Azul);Aguacatal;54.74;8.16;12;247;7
+2017;Abril 5 de 2017;Intermedio (Despues de la Quebrada el Chocho  En el Sifon);Aguacatal;51.68;8.15;12;400;7
+2018;Septiembre 11 de 2018;Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar);MeleNaNez;46.52;7.26;13.81;165;7
+2016;Agosto 1 de 2016;Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera);Lili;46.29;4;12;448;7
+2016;Diciembre 5 de 2016;Intermedio (Mina Material de arrastre, Entrada via destapada);Pance;101.64;7.15;12;35.4;7.12
+2017;Diciembre 29 de 2017;Salida(El Ancla, antes de desembocar el Rio Cali);Aguacatal;76.38;7.44;12;400;7.2
+2015;Septiembre 4 de 2015;Intermedio (Despues de la Quebrada el Chocho  En el Sifon);Aguacatal;75.85;7.64;24.6;530;7.25
+2016;Agosto 1 de 2016;Salida ( Puente La Viga, Via Canas Gordas);Pance;103.23;8.4;12;47.4;7.3
+2017;Abril 5 de 2017;Salida (El Ancla, antes de desembocar el Rio Cali);Aguacatal;47.45;6.12;12;380;7.43
+2018;Junio 21 de 2018;Intermedio  (Plaza de Toros);Canaveralejo;44.33;7.43;30.78;239;7.43
+2013;NaN;Entrada al perimetro urbano (Bocatoma Acueducto San Antonio);Cali;7.74;7.29;7.03;131;7.43
+2017;Abril 25 de 2017;Salida del perimetro urbano (Aguas del Sur - PTAR Caney);MeleNaNez;45.73;7.2;12;36;7.87
+2017;Abril 3 de 2017;Salida perimetro urbano K 127 Av  el Banco**;Pance;45.73;7.2;12;36;7.87
+2012;NaN;Entrada al perimetro urbano (Puente Azul);Aguacatal;117.71;7.64;22.3;205;8
+2017;Diciembre 29 de 2017;Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar);MeleNaNez;83.9;7.72;12;65;8.2
+2017;Abril 4 de 2017;Salida (Despues del puente via panamericana)**;Lili;69.92;6.98;12;151;8.5
+2014;Junio 29 del 2014;Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia);Cali;7.03;7.05;24.26;342;8.75
+2013;NaN;Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar);MeleNaNez;4.37;6.93;21;148.3;8.83
+2013;NaN;Salida del perimetro urbano(Puente via Panamericana Cali-Popayan);Lili;5.95;6.65;11.04;247;8.87
+2013;NaN;Salida del perimetro urbano (Aguas del Sur - PTAR Caney);MeleNaNez;4.66;7.11;27;158.3;8.93
+2013;NaN;Entrada al perimetro urbano(Puente Sede DeporCali);Pance;6.89;7.6;8;41.9;9.26
+2014;Junio 29 del 2014;Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A));Cali;9.1;8.51;39.55;289;9.5
+2017;Diciembre 29 de 2017;Intermedio (Pasoancho, Cra 80 Con Cll13);MeleNaNez;87.43;7.72;12;66.3;9.6
+2017;Abril 25 de 2017;Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar);MeleNaNez;81.83;7.3;12;60;9.62
+2017;Diciembre 29 de 2017;Salida del perimetro urbano (Aguas del Sur - PTAR Caney);MeleNaNez;73.75;7.61;12;95;9.8
+2016;Diciembre 5 de 2016;Salida del perimetro urbano(Puente via Panamericana Cali-Popayan);Lili;57.35;6.57;12.32;162.2;9.8
+2018;Marzo 22 de 2018;Entrada al perimetro urbano (Via Polvorines puente entrada base militar);MeleNaNez;94.51;7.19;12;83;9.83
+2017;Diciembre 29 de 2017;Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar);MeleNaNez;67.18;7.82;12;97.1;10
+2014;Agosto 13 del 2014;Salida(El Ancla, antes de desembocar el Rio Cali);Aguacatal;7.69;7.6;23.28;557;10
+2017;Abril 25 de 2017;Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar);MeleNaNez;56.84;7.73;12;73;10.16
+2012;NaN;Salida ( Puente La Viga, Via Canas Gordas);Pance;98.02;6.08;130.1;38;10.4
+2017;Diciembre 21 de 2017;Entrada (Finca El Forraje - Via la Buitrera - Inicio del perimetro urbano)**;Lili;74.75;6.83;12;352;10.4
+2017;Abril 25 de 2017;Intermedio (Pasoancho, Cra 80 Con Cll13);MeleNaNez;63.03;7.62;12;67;10.75
+2018;Septiembre 26 de 2018;Intermedio  (Plaza de Toros);Canaveralejo;54.78;7.84;15.25;255;10.83
+2016;Diciembre 5 de 2016;Salida ( Puente La Viga, Via Canas Gordas);Pance;93.37;6.9;12;35.2;11
+2016;Diciembre 5 de 2016;Intermedio (Cl 16-Cra-102. 100m despues de la descarga PSMV-LV31);Lili;77.52;6.54;12;189.1;11.2
+2016;Diciembre 6 de 2016;Entrada al perimetro urbano (Bocatoma Acueducto San Antonio);Cali;106.09;7.96;12;146.9;11.57
+2016;Diciembre 5 de 2016;Entrada al perimetro urbano (Colegio Ideas);Canaveralejo;65.39;7.37;12;202.8;11.57
+2015;Septiembre 8 de 2015;Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar);MeleNaNez;92.97;7.7;16.89;166.8;11.6
+2016;Agosto 4 de 2016;Intermedio (Frente a la Clinica Los Remedios);Cali;86.69;7.91;12;260;12
+2012;NaN;Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera);Lili;60.99;5.7;212.7;339;12
+2018;Septiembre 26 de 2018;Entrada al perimetro urbano (Colegio Ideas);Canaveralejo;60.88;7.43;12;230;12
+2014;Junio 23 del 2014;Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera);Lili;3.94;3.95;19.88;357;12.21
+2014;Agosto 13 del 2014;Intermedio (Despues de la Quebrada el Chocho  En el Sifon);Aguacatal;7.38;7.5;25.49;569;12.33
+2014;Junio 24 del 2014;Intermedio  (Plaza de Toros);Canaveralejo;2.51;7.14;26.33;236;12.33
+2016;Agosto 4 de 2016;Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia);Cali;79.52;7.62;14.31;286;13
+2016;Diciembre 5 de 2016;Intermedio  (Plaza de Toros);Canaveralejo;54.02;7.43;29.66;261;13
+2017;Abril 25 de 2017;Entrada al perimetro urbano (Colegio Ideas);Canaveralejo;50.74;7.87;12;184;13
+2018;Junio 22 de 2018;Salida (Despues del puente via panamericana)**;Lili;68.95;6.72;30.24;204;13.25
+2018;Marzo 22 de 2018;Salida del perimetro urbano (Aguas del Sur - PTAR Caney);MeleNaNez;67.43;7.36;27.04;180;13.4
+2013;NaN;Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A));Cali;6.08;7.63;21.08;307;13.46
+2018;Septiembre 25 de 2018;Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A));Cali;106.92;8.48;12;389;14
+2013;NaN;Entrada al perimetro urbano (Puente Azul);Aguacatal;6.74;8.2;30;260;14.14
+2018;Marzo 16 de 2018;Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A));Cali;122.27;8.3;12;245;14.2
+2017;Abril 4 de 2017;Entrada (Al lado de la ecas la riverita - inicio del perimetro urbano)**;Lili;71.86;6.71;12;257;14.3
+2016;Julio 29 de 2016;Entrada al perimetro urbano (Puente Azul);Aguacatal;77.35;7.88;18.1;300;15.25
+2017;Diciembre 30 de 2017;Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia);Cali;58.13;7.2;12;186.9;15.4
+2013;NaN;Salida(El Ancla, antes de desembocar el Rio Cali);Aguacatal;4.64;7.89;68.48;401;15.4
+2015;Septiembre 11 de 2015;Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia);Cali;99.54;7.43;24.32;472;16
+2015;Septiembre 11 de 2015;Intermedio (Frente a la Clinica Los Remedios);Cali;88.07;8.46;16;472;16
+2018;Marzo 16 de 2018;Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca);Cali;48.36;7.61;18.15;265;16.2
+2013;NaN;Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia);Cali;7.17;7.62;25.1;222;16.22
+2018;Septiembre 28 de 2018;Salida(El Ancla, antes de desembocar el Rio Cali);Aguacatal;82.35;7.78;24.02;470;16.83
+2013;NaN;Intermedio (Frente a la Clinica Los Remedios);Cali;7.32;7.72;18.07;229;17.55
+2017;Mayo 30 de 2017;Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia);Cali;59.39;7.17;12;196;17.6
+2018;Septiembre 25 de 2018;Intermedio (Frente al barrio La Isla, Puente Cancha Vivero);Cali;107.96;8;20.89;408;18.3
+2016;Diciembre 6 de 2016;Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar);MeleNaNez;78.67;7.28;12;110.4;18.75
+2016;Diciembre 6 de 2016;Salida del perimetro urbano (Aguas del Sur - PTAR Caney);MeleNaNez;80.6;7.52;16.27;121.5;20
+2014;Junio 29 del 2014;Intermedio (Frente a la Clinica Los Remedios);Cali;8.68;7.99;20.43;296;20.41
+2016;Diciembre 6 de 2016;Intermedio (Despues de la entrega del Rio Aguacatal, Frente al Museo La Tertulia);Cali;98.18;7.58;12;146.2;20.5
+2013;NaN;Intermedio (Frente al barrio La Isla, Puente Cancha Vivero);Cali;7.03;7.9;24.1;250;20.5
+2013;NaN;Intermedio (Despues de la Quebrada el Chocho  En el Sifon);Aguacatal;4.99;7.93;78.72;402;20.66
+2016;Diciembre 6 de 2016;Salida (El Ancla, antes de desembocar el Rio Cali);Aguacatal;85.63;8.12;16.32;352;20.8
+2016;Diciembre 6 de 2016;Entrada al perimetro urbano (Puente Azul);Aguacatal;97.19;8.55;16.31;266;21
+2016;Diciembre 6 de 2016;Intermedio (Frente a la Clinica Los Remedios);Cali;104.68;7.92;12;148.9;21.4
+2016;Diciembre 6 de 2016;Entrada al perimetro urbano (Via a La Buitrera, puente Base Militar);MeleNaNez;94.63;7.64;12;74.9;22
+2014;Junio 29 del 2014;Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca);Cali;5.21;7.21;87.9;374;22.29
+2017;Diciembre 30 de 2017;Intermedio (Frente a la Clinica Los Remedios);Cali;55.87;7.21;12;211.3;22.5
+2017;Diciembre 30 de 2017;Intermedio (Frente al barrio La Isla, Puente Cancha Vivero);Cali;50.95;7.5;12;214;23
+2013;NaN;Intermedio (Pasoancho, Cra 80 Con Cll13);MeleNaNez;7.31;6.89;11;104.4;23.13
+2016;Diciembre 6 de 2016;Intermedio (Despues de la Quebrada el Chocho  En el Sifon);Aguacatal;74.66;7.79;19.88;634;23.46
+2016;Diciembre 6 de 2016;Intermedio (Frente al barrio La Isla, Puente Cancha Vivero);Cali;96.67;6.77;16.53;150.8;23.48
+2015;Septiembre 11 de 2015;Intermedio (Frente al barrio La Isla, Puente Cancha Vivero);Cali;78.32;8.54;18;420;24
+2017;Diciembre 30 de 2017;Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A));Cali;53;7.72;12;217.7;24.2
+2012;NaN;Salida del perimetro urbano(Puente via Panamericana Cali-Popayan);Lili;66.69;6.49;116.4;225;24.4
+2017;Mayo 30 de 2017;Intermedio (Frente a la Clinica Los Remedios);Cali;54.16;7.38;12;193;24.5
+2017;Mayo 30 de 2017;Intermedio (Frente al barrio La Isla, Puente Cancha Vivero);Cali;49.3;7.56;12;189;25
+2017;Diciembre 30 de 2017;Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca);Cali;44.87;7.48;30.14;241.2;25
+2016;Julio 29 de 2016;Intermedio (Despues de la Quebrada el Chocho  En el Sifon);Aguacatal;70.52;7.77;19.3;414;25.5
+2018;Septiembre 7 de 2018;Entrada (Entrada  Perimetro Urbano, finca el forraje, via a la Buitrera.)**;Lili;39.43;6.24;16.42;529;25.5
+2018;Septiembre 25 de 2018;Intermedio (Frente a la Clinica Los Remedios);Cali;98.98;8.16;12;359;26
+2013;NaN;Intermedio (Cl 16-Cra-102. 100m despues de la descarga PSMV-LV31);Lili;6.24;5.81;6.02;347;26
+2016;Diciembre 6 de 2016;Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A));Cali;93.83;7.39;12;156.8;26.5
+2016;Diciembre 6 de 2016;Intermedio (Pasoancho, Cra 80 Con Cll13);MeleNaNez;78.73;7.49;12;76.5;26.5
+2017;Mayo 30 de 2017;Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A));Cali;47.74;7.88;12;163;26.5
+2012;NaN;Salida(El Ancla, antes de desembocar el Rio Cali);Aguacatal;124.15;7.38;28.8;412;27
+2015;Septiembre 8 de 2015;Intermedio (Pasoancho, Cra 80 Con Cll13);MeleNaNez;64.89;7.78;8.48;158.2;27.6
+2015;Septiembre 11 de 2015;Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A));Cali;78.03;8.52;23;435;28
+2016;Diciembre 6 de 2016;Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca);Cali;60.64;7.47;78.6;255;28
+2013;NaN;Intermedio  (Plaza de Toros);Canaveralejo;2.26;7.72;65.92;262;28.6
+2015;Septiembre 8 de 2015;Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar);MeleNaNez;56.72;7.62;9.74;171.2;30
+2014;Junio 29 del 2014;Intermedio (Frente al barrio La Isla, Puente Cancha Vivero);Cali;10.77;8.64;32.73;167.3;30
+2016;Agosto 4 de 2016;Intermedio (Frente al barrio La Isla, Puente Cancha Vivero);Cali;96.79;6.77;19.4;261;32.5
+2013;NaN;Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera);Lili;6.46;3.76;7.03;433;32.91
+2016;Agosto 4 de 2016;Intermedio (Frente a Cartones America (Cl. 70  Cr. 2A));Cali;89.79;7.37;18.01;276;35.5
+2015;Septiembre 8 de 2015;Salida del perimetro urbano (Aguas del Sur - PTAR Caney);MeleNaNez;0;7.23;115;533;37
+2018;Septiembre 11 de 2018;Salida del perimetro urbano (Aguas del Sur - PTAR Caney);MeleNaNez;29.69;7.2;51.13;334;38.12
+2017;Mayo 30 de 2017;Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca);Cali;44.87;7.48;27.8;216;43.5
+2014;Junio  28 del 2014;Salida del perimetro urbano (Aguas del Sur - PTAR Caney);MeleNaNez;NaN;7.06;124.21;360;45
+2016;Agosto 4 de 2016;Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca);Cali;31.7;7.45;177.11;438;45
+2015;Septiembre 11 de 2015;Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca);Cali;62.14;6.58;207;650;48
+2012;NaN;Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17);Canaveralejo;17.42;6.31;88.8;426;50.5
+2018;Junio 25 de 2018;Salida(El Ancla, antes de desembocar el Rio Cali);Aguacatal;64.6;7.47;35.42;446;51
+2016;Diciembre 5 de 2016;Entrada al perimetro urbano (Finca Pasto Forraje via la Buitrera);Lili;56.26;6.28;13.7;338;51
+2018;Junio 25 de 2018;Intermedio (Despues de la Quebrada el Chocho  En el Sifon);Aguacatal;83.34;7.21;35.54;509;57
+2016;Julio 29 de 2016;Salida (El Ancla, antes de desembocar el Rio Cali);Aguacatal;60.11;7.87;69;803;68.6
+2018;Junio 22 de 2018;Entrada (Entrada  Perimetro Urbano, finca el forraje, via a la Buitrera.)**;Lili;70.92;6.36;21.79;333;72.86
+2018;Septiembre 25 de 2018;Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca);Cali;73.89;7.07;156.08;383;85
+2016;Diciembre 5 de 2016;Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17);Canaveralejo;62.89;7.37;76.47;371;85
+2017;Septiembre 06 de 2017;Intermedio  (Plaza de Toros);Canaveralejo;48.95;7.82;27.41;218.2;105
+2014;Junio  28 del 2014;Intermedio  (Av Simon Bolivar, Cra 80 Simon Bolivar);MeleNaNez;NaN;6.92;222.82;334;106
+2013;NaN;Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17);Canaveralejo;1.55;6.82;167.68;466;115.8
+2014;Junio 24 del 2014;Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17);Canaveralejo;NaN;6.42;243.09;559;138.33
+2017;Septiembre 06 de 2017;Entrada al perimetro urbano (Colegio Ideas);Canaveralejo;51.58;7.71;35.37;199.2;149
+2018;Septiembre 26 de 2018;Intermedio (Puente Verde);Canaveralejo;0;6.83;227.65;522;157
+2018;Junio 21 de 2018;Intermedio (Puente Verde);Canaveralejo;0;6.86;154.52;506;158
+2017;Abril 25 de 2017;Intermedio  (Plaza de Toros);Canaveralejo;45.08;7.79;12.9;219;184
+2017;Diciembre 21 de 2017;Salida (Despues del puente via panamericana)**;Lili;70.68;7.02;12;190.7;185
+2017;Septiembre 06 de 2017;Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17);Canaveralejo;10.77;6.73;93.2;397;185
+2018;Septiembre 26 de 2018;Salida (Cl 23 Antes descargar Canal Sur);Canaveralejo;1.74;6.75;293.35;570;185
+2018;Junio 21 de 2018;Salida (Cl 23 Antes descargar Canal Sur);Canaveralejo;1.76;6.6;226.31;451;188
+2012;NaN;Salida del perimetro urbano(200 metros antes de desembocadura al Rio Cauca);Cali;55.38;6.73;425;406;193
+2017;Abril 25 de 2017;Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17);Canaveralejo;10;6.65;112.8;465;205
+2015;Septiembre 9 de 2015;Salida (Antes de desemboocar al Canal Sur, Cra 50 Cll 17);Canaveralejo;39.94;6.35;73.03;404;298
