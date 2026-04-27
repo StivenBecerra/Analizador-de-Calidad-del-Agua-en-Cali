@@ -146,8 +146,8 @@ def agrupar(datos):
         print(f"{valor}: {cantidad}")
 
 #MENÚ PRINCIPAL
-def menu():
-    datos = cargar_datos("Agua_cali_2012_2018_Pequeño.csv")
+def menu(ruta):
+    datos = cargar_datos(ruta)
 
     if not datos:
         return
