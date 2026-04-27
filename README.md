@@ -1,5 +1,6 @@
 # Analizador-de-Calidad-del-Agua-en-Cali
 Descripción
+**Descripción**
 
 DATALAB es un programa desarrollado en Python que permite cargar, consultar y analizar información almacenada en un archivo CSV desde la consola.
 
@@ -26,6 +27,13 @@ Calcula estadísticas básicas de una columna numérica:
 -Valor mínimo
 
 -Promedio
+Cantidad de datos
+
+Valor máximo
+
+Valor mínimo
+
+Promedio
 
 **Filtrar registros**
 
@@ -48,6 +56,7 @@ Cierra el programa.
 Python 3 o superior
 
 **Cómo ejecutar el programa**
+Cómo ejecutar el programa
 
 1. Guardar el código en un archivo llamado:
 datalab.py
@@ -111,3 +120,53 @@ El programa está dividido en funciones:
 -Guillermo Avila
 
 -Nicole Lara
+limpiar_texto(): normaliza texto para búsquedas
+
+cargar_datos(): carga el archivo CSV
+
+mostrar_registro(): imprime registros
+
+columna_valida(): valida columnas
+
+mostrar_columnas(): muestra encabezados
+
+buscar(): busca coincidencias
+
+estadisticas(): calcula estadísticas
+
+filtrar(): filtra valores numéricos
+
+agrupar(): cuenta categorías
+
+menu(): menú principal
+
+**Tecnologías utilizadas**
+
+Python
+
+Manejo de archivos
+
+Listas
+
+Diccionarios
+
+Funciones
+
+**Autores**
+
+Jaider Stiven Becerra Muñoz 
+
+Nicolas Serrano Cipriam
+
+María Alejandra Bermudez 
+
+Francisco David Martínez Romero 
+
+Juan Sebastian Tacuma Jimenez
+
+David Sebastian Lopez Tisoy
+
+Guillermo Andres Avila Barrera
+
+Nicole Andrea Lara Escorcia 
+
