@@ -1,4 +1,5 @@
 import unicodedata
+from modulos import historial
 #LIMPIAR TEXTO
 def limpiar_texto(texto):
     texto = texto.lower().strip()
@@ -35,11 +36,28 @@ def mostrar_registro(registro):
 
 #VALIDAR COLUMNA
 def columna_valida(datos, columna):
-    if columna in datos[0]:
-        return True
-    else:
-        print("Error: columna no válida")
-        return False
+
+    equivalencias = {
+        "ano": "Ano",
+        "año": "Ano",
+        "fecha": "Fecha",
+        "punto": "Punto de muestreo",
+        "punto de muestreo": "Punto de muestreo",
+        "rio": "Rio",
+        "od": "OD (%)",
+        "ph": "pH",
+        "dqo": "DQO (mg/L)",
+        "ce": "CE (microS/cm)",
+        "sst": "SST (mg/L)"
+    }
+
+    columna = columna.lower().strip()
+
+    if columna in equivalencias:
+        return equivalencias[columna]
+
+    print("Error: columna no válida")
+    return None
 
 #MOSTRAR COLUMNAS
 def mostrar_columnas(datos):
@@ -48,7 +66,7 @@ def mostrar_columnas(datos):
         print(f"- {col}")
 
 #BUSCAR
-def buscar(datos):
+def buscar(datos):  
     termino = limpiar_texto(input("\nIngrese término de búsqueda: "))
     resultados = []
 
@@ -60,6 +78,9 @@ def buscar(datos):
             resultados.append(registro)
 
     print(f"\nSe encontraron {len(resultados)} registros\n")
+    
+    consulta = f"Búsqueda general: {termino}"
+    historial.guardar_historial(consulta, len(resultados))
 
     if resultados:
         for r in resultados:
@@ -71,23 +92,27 @@ def buscar(datos):
 def estadisticas(datos):
     columna = input("\nIngrese nombre de la columna: ")
 
-    if not columna_valida(datos, columna):
+    columna_real = columna_valida(datos, columna)
+
+    if columna_real is None:
         return
 
     valores = []
 
     for registro in datos:
         try:
-            valores.append(float(registro[columna]))
+            valores.append(float(registro[columna_real]))
         except:
             continue
 
     if valores:
-        print("\n--- Estadísticas ---")
+        print(f"\n--- Estadísticas de {columna_real} ---")
         print(f"Cantidad de datos: {len(valores)}")
         print(f"Máximo: {max(valores)}")
         print(f"Mínimo: {min(valores)}")
         print(f"Promedio: {sum(valores)/len(valores):.2f}")
+        consulta = f"Estadísticas de {columna_real}"
+        historial.guardar_historial(consulta, len(valores))
     else:
         print("No hay datos numéricos en esa columna")
 
@@ -95,7 +120,9 @@ def estadisticas(datos):
 def filtrar(datos):
     columna = input("\nIngrese columna: ")
 
-    if not columna_valida(datos, columna):
+    columna_real = columna_valida(datos, columna)
+
+    if columna_real is None:
         return
 
     try:
@@ -108,12 +135,14 @@ def filtrar(datos):
 
     for registro in datos:
         try:
-            if float(registro[columna]) > valor:
+            if float(registro[columna_real]) > valor:
                 resultados.append(registro)
         except:
             continue
 
     print(f"\nSe encontraron {len(resultados)} registros\n")
+    consulta = f"Filtro {columna_real} > {valor}"
+    historial.guardar_historial(consulta, len(resultados))
 
     if resultados:
         for r in resultados:
@@ -125,13 +154,15 @@ def filtrar(datos):
 def agrupar(datos):
     columna = input("\nIngrese la columna para agrupar: ")
 
-    if not columna_valida(datos, columna):
+    columna_real = columna_valida(datos, columna)
+
+    if columna_real is None:
         return
 
     conteo = {}
 
     for registro in datos:
-        valor = registro[columna]
+        valor = registro[columna_real]
 
         if valor in conteo:
             conteo[valor] += 1
@@ -140,11 +171,14 @@ def agrupar(datos):
 
     print("\n--- Conteo por categoría ---\n")
 
+    consulta = f"Agrupar por {columna_real}"
+    historial.guardar_historial(consulta, len(conteo))
+
     ordenado = sorted(conteo.items(), key=lambda x: x[1], reverse=True)
 
     for valor, cantidad in ordenado:
         print(f"{valor}: {cantidad}")
-
+        
 #MENÚ PRINCIPAL
 def menu(ruta):
     datos = cargar_datos(ruta)
@@ -159,10 +193,11 @@ def menu(ruta):
         print("3. Filtrar registros")
         print("4. Agrupar por categoría")
         print("5. Ver columnas disponibles")
-        print("6. Salir")
+        print("6. Ver historial")
+        print("7. Salir")
         print("=============================")
 
-        opcion = input("Seleccione una opción: ")
+        opcion = input("Seleccione una opción (ejm: 1): ")
 
         if opcion == "1":
             buscar(datos)
@@ -183,6 +218,9 @@ def menu(ruta):
             mostrar_columnas(datos)
 
         elif opcion == "6":
+            historial.mostrar_historial()
+
+        elif opcion == "7":
             print("\nSaliendo del programa...\n")
             break
 

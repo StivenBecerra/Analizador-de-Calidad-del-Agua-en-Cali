@@ -1,0 +1,9 @@
+fecha,consulta,resultados
+2026-05-14 13:21:00,Estadísticas de CE (microS/cm),50
+2026-05-14 13:21:05,Estadísticas de SST (mg/L),50
+2026-05-14 13:21:39,Agrupar por Rio,6
+2026-05-14 13:22:13,Filtro Ano > 2014.0,31
+2026-05-14 13:22:39,Filtro SST (mg/L) > 80000.0,0
+2026-05-14 13:23:20,Filtro Punto de muestreo > 5.0,0
+2026-05-14 13:23:46,Búsqueda general: octubre,0
+2026-05-14 13:24:24,Búsqueda general: agosto,6
