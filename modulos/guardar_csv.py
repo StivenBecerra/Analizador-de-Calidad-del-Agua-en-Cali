@@ -11,9 +11,22 @@ def guardar_resultados(resultados):
 
     if not nombre.endswith(".csv"):
         nombre+=".csv"
+    
+    # RUTA BASE DEL PROYECTO
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+    # CARPETA DATA
+    data_dir = os.path.join(base_dir, "Data")
+
+    # CREAR DATA SI NO EXISTE
+    os.makedirs(data_dir, exist_ok=True)
+
+    # RUTA COMPLETA
+    ruta_archivo = os.path.join(data_dir, nombre)
+
 
     try:
-        with open(nombre,"w",newline="",encoding="utf-8") as archivo:
+        with open(ruta_archivo,"w",newline="",encoding="utf-8") as archivo:
             escritor=csv.DictWriter(
                 archivo,
                 fieldnames=resultados[0].keys()
@@ -30,9 +43,18 @@ def guardar_resultados(resultados):
 #CARGAR RESULTADOS
 def cargar_resultados(nombre_archivo):
     resultados=[]
+    
+    # RUTA BASE
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+    # CARPETA DATA
+    data_dir = os.path.join(base_dir, "Data")
+
+    # RUTA COMPLETA
+    ruta_archivo = os.path.join(data_dir, nombre_archivo)
 
     try:
-        with open(nombre_archivo,"r",encoding="utf-8") as archivo:
+        with open(ruta_archivo,"r",encoding="utf-8") as archivo:
             lector=csv.DictReader(archivo)
 
             for fila in lector:
@@ -54,7 +76,18 @@ def cargar_resultados(nombre_archivo):
 def ver_archivos_guardados():
     archivos=[]
 
-    for archivo in os.listdir():
+    # RUTA BASE
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+    # CARPETA DATA
+    data_dir = os.path.join(base_dir, "Data")
+
+    # CREAR DATA SI NO EXISTE
+    os.makedirs(data_dir, exist_ok=True)
+
+    # LEER ARCHIVOS DE DATA
+    for archivo in os.listdir(data_dir):
+
         if archivo.endswith(".csv"):
             archivos.append(archivo)
 
