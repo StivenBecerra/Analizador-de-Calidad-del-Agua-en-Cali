@@ -1,27 +1,4 @@
-import csv
 import json
-
-# CARGAR DATOS DESDE CSV
-
-def cargar_datos_csv(ruta):
-
-    datos = []
-
-    try:
-        with open(ruta, "r", encoding="latin-1") as archivo:
-
-            lector = csv.DictReader(archivo)
-
-            for fila in lector:
-                datos.append(fila)
-
-        print(f"\nDatos cargados correctamente: {len(datos)} registros\n")
-
-        return datos
-
-    except FileNotFoundError:
-        print("Error: archivo no encontrado")
-        return []
 
 # GUARDAR RESUMEN EN JSON
 def guardar_resumen_json(
