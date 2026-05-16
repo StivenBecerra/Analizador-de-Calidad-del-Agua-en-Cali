@@ -1,0 +1,42 @@
+{
+    "total_registros": 202,
+    "Ano": {
+        "minimo": 2012.0,
+        "maximo": 2018.0,
+        "promedio": 2015.74
+    },
+    "Fecha": {
+        "valores_unicos": 40
+    },
+    "Punto de muestreo": {
+        "valores_unicos": 38
+    },
+    "Rio": {
+        "valores_unicos": 6
+    },
+    "OD (%)": {
+        "minimo": 0.0,
+        "maximo": 124.15,
+        "promedio": NaN
+    },
+    "pH": {
+        "minimo": 3.76,
+        "maximo": 9.99,
+        "promedio": 7.32
+    },
+    "DQO (mg/L)": {
+        "minimo": 4.0,
+        "maximo": 425.0,
+        "promedio": 37.59
+    },
+    "CE (microS/cm)": {
+        "minimo": 24.0,
+        "maximo": 803.0,
+        "promedio": 243.24
+    },
+    "SST (mg/L)": {
+        "minimo": 1.6,
+        "maximo": 298.0,
+        "promedio": 26.92
+    }
+}

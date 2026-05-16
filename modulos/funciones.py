@@ -2,6 +2,10 @@ import unicodedata
 from modulos import historial
 from modulos.analisis import generar_resumen
 from modulos.archivos import guardar_resumen_json
+from modulos import guardar_csv 
+import math
+
+
 #LIMPIAR TEXTO
 def limpiar_texto(texto):
     texto = texto.lower().strip()
@@ -87,6 +91,9 @@ def buscar(datos):
     if resultados:
         for r in resultados:
             mostrar_registro(r)
+        guardar = input("\n¿Desea guardar resultados? (s/n): ")
+        if guardar.lower() == "s":
+            guardar_csv.guardar_resultados(resultados)
     else:
         print("No se encontraron coincidencias")
 
@@ -103,7 +110,8 @@ def estadisticas(datos):
 
     for registro in datos:
         try:
-            valores.append(float(registro[columna_real]))
+            if not math.isnan(float(registro[columna_real])):
+                valores.append(float(registro[columna_real]))
         except:
             continue
 
@@ -149,6 +157,9 @@ def filtrar(datos):
     if resultados:
         for r in resultados:
             mostrar_registro(r)
+        guardar = input("\n¿Desea guardar resultados? (s/n): ")
+        if guardar.lower() == "s":
+            guardar_csv.guardar_resultados(resultados)
     else:
         print("No hay resultados")
 
@@ -175,11 +186,23 @@ def agrupar(datos):
 
     consulta = f"Agrupar por {columna_real}"
     historial.guardar_historial(consulta, len(conteo))
-
+   
     ordenado = sorted(conteo.items(), key=lambda x: x[1], reverse=True)
 
     for valor, cantidad in ordenado:
         print(f"{valor}: {cantidad}")
+    historial.guardar_historial(consulta,len(conteo))
+
+    guardar = input("\n¿Desea guardar resultados? (s/n): ")
+
+    if guardar.lower() == "s":
+
+        resultados = []
+
+        for valor, cantidad in ordenado:
+
+            resultados.append({columna_real: valor, "Cantidad": cantidad})
+        guardar_csv.guardar_resultados(resultados)
         
 #MENÚ PRINCIPAL
 def menu(ruta):
@@ -202,7 +225,8 @@ def menu(ruta):
         print("4. Agrupar por categoría")
         print("5. Ver columnas disponibles")
         print("6. Ver historial")
-        print("7. Salir")
+        print("7. Ver archivos guardados")
+        print("8. Salir")
         print("=============================")
 
         opcion = input("Seleccione una opción (ejm: 1): ")
@@ -229,6 +253,9 @@ def menu(ruta):
             historial.mostrar_historial()
 
         elif opcion == "7":
+            guardar_csv.ver_archivos_guardados()
+
+        elif opcion == "8":
             print("\nSaliendo del programa...\n")
             break
 
