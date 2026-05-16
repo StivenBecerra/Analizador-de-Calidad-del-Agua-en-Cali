@@ -1,5 +1,7 @@
 import unicodedata
 from modulos import historial
+from modulos.analisis import generar_resumen
+from modulos.archivos import guardar_resumen_json
 #LIMPIAR TEXTO
 def limpiar_texto(texto):
     texto = texto.lower().strip()
@@ -182,6 +184,12 @@ def agrupar(datos):
 #MENÚ PRINCIPAL
 def menu(ruta):
     datos = cargar_datos(ruta)
+    # RESUMEN AUTOMÁTICO DEL DATASET
+    resumen = generar_resumen(datos)
+
+    guardar_resumen_json(resumen)
+
+    print("Resumen del dataset generado correctamente")
 
     if not datos:
         return
