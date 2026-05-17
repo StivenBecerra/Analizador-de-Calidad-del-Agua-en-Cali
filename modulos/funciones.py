@@ -1,5 +1,6 @@
 import unicodedata
 from modulos import historial
+from modulos import FunObli1
 #LIMPIAR TEXTO
 def limpiar_texto(texto):
     texto = texto.lower().strip()
@@ -85,6 +86,11 @@ def buscar(datos):
     if resultados:
         for r in resultados:
             mostrar_registro(r)
+         if FunObli1.ConfirmarGuard():
+            FunObli1.guardar_resultados(resultados)
+        elif FunObli1.ConfirmarGuard() == -1:
+            print("Digite porfavor una respuesta válida")
+        else: print("Los datos no fueron guardados")
     else:
         print("No se encontraron coincidencias")
 
@@ -147,6 +153,12 @@ def filtrar(datos):
     if resultados:
         for r in resultados:
             mostrar_registro(r)
+        if FunObli1.ConfirmarGuard():
+            FunObli1.guardar_resultados(resultados)
+        elif FunObli1.ConfirmarGuard() == -1:
+            print("Digite porfavor una respuesta válida")
+        else: print("Los datos no fueron guardados")
+                
     else:
         print("No hay resultados")
 
@@ -221,6 +233,9 @@ def menu(ruta):
             historial.mostrar_historial()
 
         elif opcion == "7":
+            FunObli1.ver_archivos_guardados()
+        
+        elif opcion == "8":
             print("\nSaliendo del programa...\n")
             break
 
