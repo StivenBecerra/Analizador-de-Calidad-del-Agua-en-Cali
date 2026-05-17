@@ -1,5 +1,6 @@
 import os
 import csv
+from modulos import funciones
 
 #GUARDAR RESULTADOS
 def guardar_resultados(resultados):
@@ -87,7 +88,7 @@ def ver_archivos_guardados():
         print("Opción inválida")
 #función que se llama para saber si el usuario guardara los datos o no
 def ConfirmarGuard():
-    Rta=limpiar_texto(input("¿Desea guardar resultados?"))
+    Rta=funciones.limpiar_texto(input("¿Desea guardar resultados?"))
     if Rta=="si":
         return True
     elif Rta=="no":
