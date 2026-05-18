@@ -1,9 +1,11 @@
-
+import math
 # VERIFICAR SI ES NÚMERO
 def es_numero(valor):
 
     try:
-        float(valor)
+        numero = float(valor)
+        if math.isnan(numero):
+            return False
         return True
 
     except:

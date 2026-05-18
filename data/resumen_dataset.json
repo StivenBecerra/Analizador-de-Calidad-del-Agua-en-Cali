@@ -15,9 +15,7 @@
         "valores_unicos": 6
     },
     "OD (%)": {
-        "minimo": 0.0,
-        "maximo": 124.15,
-        "promedio": NaN
+        "valores_unicos": 192
     },
     "pH": {
         "minimo": 3.76,
