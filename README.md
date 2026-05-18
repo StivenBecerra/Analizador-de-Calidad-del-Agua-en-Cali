@@ -1,24 +1,22 @@
 # Analizador-de-Calidad-del-Agua-en-Cali
-Descripción
 **Descripción**
 
 DATALAB es un programa desarrollado en Python que permite cargar, consultar y analizar información almacenada en un archivo CSV desde la consola.
 
-El sistema trabaja con el archivo:
-
+El sistema trabaja con el archivo: 
 Agua_cali_2012_2018_Pequeño.csv
 
 Su objetivo es facilitar la exploración de datos mediante un menú interactivo.
 
-Funciones principales
+**Funciones principales**
 
-**Buscar registros**
+Buscar registros
 
-Permite buscar palabras o valores dentro de todos los registros del archivo.
+Permite buscar palabras o valores dentro de todos los registros del archivo y da la opción de guardar los resultados en un archivo CSV.
 
-**Ver estadísticas**
+Ver estadísticas
 
-Calcula estadísticas básicas de una columna numérica:
+Muestra las columnas y calcula estadísticas básicas de una columna numérica:
 
 -Cantidad de datos
 
@@ -27,27 +25,28 @@ Calcula estadísticas básicas de una columna numérica:
 -Valor mínimo
 
 -Promedio
-Cantidad de datos
 
-Valor máximo
+Filtrar registros
 
-Valor mínimo
+Muestra los registros cuyo valor sea mayor al número ingresado por el usuario y permite guardar los resultados.
 
-Promedio
+Agrupar por categoría
 
-**Filtrar registros**
+Cuenta cuántas veces aparece cada valor dentro de una columna de forma ordenada de mayor a menor y permite guardar los resultados.
 
-Muestra los registros cuyo valor sea mayor al número ingresado por el usuario.
-
-**Agrupar por categoría**
-
-Cuenta cuántas veces aparece cada valor dentro de una columna.
-
-**Ver columnas disponibles**
+Ver columnas disponibles
 
 Muestra los nombres de todas las columnas del archivo CSV.
 
-**Salir**
+Ver historial
+
+Permite ver el historial de las consultas realizadas durante la ejecución.
+
+Ver archivos guardados
+
+Muestra una lista de los archivos CSV guardados en la carpeta Data y permite cargar y ver su contenido.
+
+Salir
 
 Cierra el programa.
 
@@ -55,118 +54,78 @@ Cierra el programa.
 
 Python 3 o superior
 
+Módulos nativos: json, os, csv, math, unicodedata
+
 **Cómo ejecutar el programa**
-Cómo ejecutar el programa
 
-1. Guardar el código en un archivo llamado:
-datalab.py
+Guardar el código en un archivo llamado: datalab.py
 
-2. Tener el archivo CSV en la misma carpeta:
-Agua_cali_2012_2018_Pequeño.csv
+Tener el archivo CSV en la misma carpeta: Agua_cali_2012_2018_Pequeño.csv
 
-3. Ejecutar en la terminal:
-python datalab.py
+Ejecutar en la terminal: python datalab.py
 
 **Estructura del programa**
 
 El programa está dividido en funciones:
 
--limpiar_texto(): normaliza texto para búsquedas
+-es_numero(): verifica si un valor es numérico
 
--cargar_datos(): carga el archivo CSV
+-generar_resumen(): genera un resumen automático del dataset con mínimos, máximos, promedios o valores únicos
 
--mostrar_registro(): imprime registros
+-guardar_resumen_json(): guarda el resumen automáticamente en un archivo JSON dentro de la carpeta Data
 
--columna_valida(): valida columnas
+-limpiar_texto(): normaliza texto eliminando acentos y mayúsculas para búsquedas
 
--mostrar_columnas(): muestra encabezados
+-cargar_datos(): carga el archivo CSV con codificación latin-1 y separador punto y coma
 
--buscar(): busca coincidencias
+-mostrar_registro(): imprime registros con un formato legible
 
--estadisticas(): calcula estadísticas
+-columna_valida(): valida las columnas ingresadas y maneja equivalencias de nombres
 
--filtrar(): filtra valores numéricos
+-mostrar_columnas(): muestra los encabezados disponibles
 
--agrupar(): cuenta categorías
+-buscar(): busca coincidencias de texto en los registros y permite exportar a CSV
 
--menu(): menú principal
+-estadisticas(): calcula las estadísticas de una columna numérica validada
+
+-filtrar(): filtra registros por valores mayores al ingresado y permite exportar a CSV
+
+-agrupar(): cuenta categorías de forma ordenada y permite guardar los resultados en un CSV
+
+-guardar_resultados(): exporta listas de diccionarios a un archivo CSV en la carpeta Data
+
+-cargar_resultados(): lee y muestra por consola un archivo guardado previamente
+
+-ver_archivos_guardados(): indexa la carpeta Data, lista los archivos CSV y permite seleccionar uno para leerlo
+
+-menu(): maneja el flujo del menú interactivo principal
 
 **Tecnologías utilizadas**
 
 -Python
 
--Manejo de archivos
+-Manejo de archivos (CSV y JSON)
 
--Listas
+-Manejo de rutas del sistema (os)
 
--Diccionarios
+-Listas, diccionarios y conjuntos (set)
 
--Funciones
-
-**Autores**
-
--Jaider Becerra
-
--Nicolas Serrano
-
--María Bermudez
-
--Francisco Martínez
-
--Juan Tucuma
-
--David Lopez
-
--Guillermo Avila
-
--Nicole Lara
-limpiar_texto(): normaliza texto para búsquedas
-
-cargar_datos(): carga el archivo CSV
-
-mostrar_registro(): imprime registros
-
-columna_valida(): valida columnas
-
-mostrar_columnas(): muestra encabezados
-
-buscar(): busca coincidencias
-
-estadisticas(): calcula estadísticas
-
-filtrar(): filtra valores numéricos
-
-agrupar(): cuenta categorías
-
-menu(): menú principal
-
-**Tecnologías utilizadas**
-
-Python
-
-Manejo de archivos
-
-Listas
-
-Diccionarios
-
-Funciones
+-Funciones y modularización
 
 **Autores**
 
-Jaider Stiven Becerra Muñoz 
+-Jaider Stiven Becerra Muñoz
 
-Nicolas Serrano Cipriam
+-Nicolas Serrano Cipriam
 
-María Alejandra Bermudez 
+-María Alejandra Bermudez Poveda
 
-Francisco David Martínez Romero 
+-Francisco David Martínez Romero
 
-Juan Sebastian Tacuma Jimenez
+-Juan Sebastian Tacuma Jimenez
 
-David Sebastian Lopez Tisoy
+-David Sebastian Lopez Tisoy
 
-Guillermo Andres Avila Barrera
+-Guillermo Andres Avila Barrera
 
-Nicole Andrea Lara Escorcia 
-
+-Nicole Andrea Lara Escorcia
