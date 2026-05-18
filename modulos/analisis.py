@@ -1,15 +1,19 @@
 import math
+
 # VERIFICAR SI ES NÚMERO
 def es_numero(valor):
 
     try:
         numero = float(valor)
+
         if math.isnan(numero):
             return False
+
         return True
 
     except:
         return False
+
 
 # GENERAR RESUMEN DEL DATASET
 def generar_resumen(datos):
@@ -18,6 +22,7 @@ def generar_resumen(datos):
 
     # TOTAL DE REGISTROS
     resumen["total_registros"] = len(datos)
+
     # VALIDAR DATOS
     if len(datos) == 0:
         return resumen
@@ -25,7 +30,6 @@ def generar_resumen(datos):
     columnas = datos[0].keys()
 
     # RECORRER COLUMNAS
-
     for columna in columnas:
 
         valores = []
@@ -36,16 +40,17 @@ def generar_resumen(datos):
 
             if valor != "":
                 valores.append(valor)
-        # COLUMNAS NUMÉRICAS
-        if (
-            len(valores) > 0
-            and all(es_numero(v) for v in valores)
-        ):
 
-            numeros = []
+        # GUARDAR SOLO NÚMEROS VÁLIDOS
+        numeros = []
 
-            for v in valores:
+        for v in valores:
+
+            if es_numero(v):
                 numeros.append(float(v))
+
+        # COLUMNAS NUMÉRICAS
+        if len(numeros) > 0:
 
             resumen[columna] = {
 
@@ -60,7 +65,6 @@ def generar_resumen(datos):
             }
 
         # COLUMNAS DE TEXTO
-
         else:
 
             unicos = set(valores)
