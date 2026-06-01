@@ -25,3 +25,38 @@ fecha,consulta,resultados
 2026-05-16 16:50:57,Búsqueda general: mayo,8
 2026-05-16 16:51:20,Agrupar por Rio,6
 2026-05-16 16:51:20,Agrupar por Rio,6
+2026-05-31 22:22:45,Búsqueda general: rio,38
+2026-05-31 22:22:58,Búsqueda general: cali,82
+2026-05-31 22:23:14,Búsqueda general: septiembre,44
+2026-05-31 22:23:37,Filtro pH > 7000,0
+2026-05-31 22:23:42,Filtro pH > 70,0
+2026-05-31 22:23:46,Filtro pH > 70,0
+2026-05-31 22:23:53,Filtro pH > 70,0
+2026-05-31 22:24:02,Filtro pH > 7,154
+2026-05-31 22:24:09,Búsqueda general: septiembre,44
+2026-05-31 22:24:12,Filtro pH > 7,154
+2026-05-31 22:24:26,Filtro pH > 10,0
+2026-05-31 22:24:32,Filtro pH > 9,1
+2026-05-31 22:24:42,Filtro pH > ,0
+2026-05-31 22:24:55,Filtro DQO (mg/L) > 15,97
+2026-05-31 22:25:03,Filtro DQO (mg/L) > 15,97
+2026-05-31 22:25:12,Filtro pH > 6,195
+2026-05-31 22:25:17,Filtro SST (mg/L) > 6,181
+2026-05-31 22:25:24,Agrupar por pH,129
+2026-05-31 22:28:09,Estadísticas de pH,202
+2026-05-31 22:28:20,Agrupar por pH,129
+2026-05-31 22:28:24,Agrupar por SST (mg/L),124
+2026-05-31 22:28:43,Búsqueda general: cali,82
+2026-05-31 22:28:46,Estadísticas de pH,202
+2026-05-31 22:29:25,Estadísticas de Ano,202
+2026-05-31 22:29:37,Estadísticas de OD (%),199
+2026-05-31 22:30:19,Agrupar por SST (mg/L),124
+2026-05-31 22:30:24,Agrupar por SST (mg/L),124
+2026-05-31 22:31:15,Agrupar por Rio,6
+2026-05-31 22:31:24,Agrupar por Ano,7
+2026-05-31 22:46:31,Búsqueda general: rio,38
+2026-05-31 23:41:42,Filtro pH > ,0
+2026-05-31 23:41:45,Estadísticas de pH,202
+2026-05-31 23:43:16,Filtro pH > 7,154
+2026-05-31 23:43:30,Agrupar por OD (%),192
+2026-05-31 23:43:37,Agrupar por pH,129
