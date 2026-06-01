@@ -1,6 +1,6 @@
 import json
 import os 
-
+import csv
 # GUARDAR RESUMEN EN JSON
 def guardar_resumen_json(
     resumen,
@@ -35,3 +35,34 @@ def guardar_resumen_json(
     print(
         f"\nResumen guardado en {nombre_archivo}\n"
     )
+
+# EXPORTAR RESULTADOS CSV
+def exportar_resultados_csv(
+    datos,
+    ruta_archivo
+):
+
+    if not datos:
+        print("No hay datos para exportar")
+        return
+
+    columnas = datos[0].keys()
+
+    with open(
+        ruta_archivo,
+        mode="w",
+        newline="",
+        encoding="utf-8"
+    ) as archivo:
+
+        escritor = csv.DictWriter(
+            archivo,
+            fieldnames=columnas
+        )
+
+        escritor.writeheader()
+
+        for fila in datos:
+            escritor.writerow(fila)
+
+    print("Archivo CSV exportado correctamente")
